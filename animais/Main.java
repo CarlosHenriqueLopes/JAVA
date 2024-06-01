@@ -51,7 +51,6 @@ public class Main {
                 System.out.println(((Pato) variavel).som());
             
             } else if (variavel instanceof Pombo){
-                ((Pombo) variavel) .nadar();
                 ((Pombo) variavel) .voar();
                 ((Pombo) variavel) .botarOvos();
                 System.out.println(((Pombo) variavel).som());

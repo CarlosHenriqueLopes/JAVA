@@ -50,7 +50,7 @@ public abstract class Animais {
     public void setEspecie(String especie) {
         this.especie = especie;
     }
-
+    
     public int getSexo() {
         return sexo;
     }
