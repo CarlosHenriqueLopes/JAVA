@@ -10,6 +10,9 @@ public class Dragao extends Animais implements interfaceNadador,interfaceVoador,
         super(especie, sexo, voador);
         this.fogo = fogo;
     }
+    public Dragao(String especie, int sexo) {
+        super(especie, sexo);
+    }
 
     
     // Defini a variável como int, pq fiz duas constantes (MACHO,FEMEA) para faciliar na condicional do médodo cospirFogo()
@@ -20,7 +23,7 @@ public class Dragao extends Animais implements interfaceNadador,interfaceVoador,
     
     public void cospirFogo(){
         if (fogo == fogoSIM){
-            System.out.printf("%s pode cospit fogo\n", getEspecie());
+            System.out.printf("%s pode cospir fogo\n", getEspecie());
         } else {
             System.out.printf("%s não pode cospir fogo\n", getEspecie());
         }

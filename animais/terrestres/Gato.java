@@ -9,6 +9,9 @@ public class Gato extends Animais implements interfaceTerrestre{
     public Gato(String especie, int sexo, int voador) {
         super(especie, sexo, voador);
     }
+    public Gato(String especie, int sexo) {
+        super(especie, sexo);
+    }
 
     // Métodos obrigatórios da interface interfaceTerrestre
     @Override

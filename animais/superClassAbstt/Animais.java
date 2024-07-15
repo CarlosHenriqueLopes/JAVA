@@ -12,6 +12,10 @@ public abstract class Animais {
         this.sexo = sexo;
         this.voador = voador;
     }
+    public Animais(String especie, int sexo){
+        this.especie = especie;
+        this.sexo = sexo;
+    }
 
 
     // Atributo statico/constantes para usar no contrutor, quando chamar as classes

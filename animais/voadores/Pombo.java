@@ -8,6 +8,9 @@ public class Pombo extends Animais implements interfaceVoador, interfaceBotarOvo
     public Pombo(String especie, int sexo, int voador) {
         super(especie, sexo, voador);
     }
+    public Pombo(String especie, int sexo) {
+        super(especie, sexo);
+    }
 
 
     // Método obrigatório da interfaceVoador

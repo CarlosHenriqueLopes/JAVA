@@ -9,6 +9,9 @@ public class Pato extends Animais implements interfaceNadador, interfaceVoador, 
     public Pato(String especie, int sexo, int voador) {
         super(especie, sexo, voador);
     }
+    public Pato(String especie, int sexo) {
+        super(especie, sexo);
+    }
 
 
     // Método ogrigatório da interface animalNadador

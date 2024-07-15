@@ -12,7 +12,6 @@ public class Pinguim extends Animais implements interfaceNadador, interfaceBotar
     }
     public Pinguim(String especie, int sexo) {
         super(especie, sexo);
-        
     }
     
 

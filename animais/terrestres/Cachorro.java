@@ -9,6 +9,9 @@ public class Cachorro extends Animais implements interfaceTerrestre{
     public Cachorro(String especie, int sexo, int voador) {
         super(especie, sexo, voador);
     }
+    public Cachorro(String especie, int sexo) {
+        super(especie, sexo);
+    }
 
     
     // Métodos obrigatórios da interface interfaceTerrestre

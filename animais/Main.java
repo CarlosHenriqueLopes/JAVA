@@ -26,11 +26,13 @@ public class Main {
                 ((Cachorro) variavel) .caminhar();
                 ((Cachorro) variavel) .subirEmArvores();
                 System.out.println(((Cachorro) variavel).som());
+                System.out.println("\n=============================\n");
 
             } else if (variavel instanceof Gato){
                 ((Gato) variavel) .caminhar();
                 ((Gato) variavel) .subirEmArvores();
                 System.out.println(((Gato) variavel).som());
+                System.out.println("\n=============================\n");
 
             } else if (variavel instanceof Dragao){
                 ((Dragao) variavel) .cospirFogo();
@@ -38,29 +40,30 @@ public class Main {
                 ((Dragao) variavel) .voar();
                 ((Dragao) variavel) .botarOvos();
                 System.out.println(((Dragao) variavel).som());
-            
+                System.out.println("\n=============================\n");
+
             } else if (variavel instanceof Pinguim){
                 ((Pinguim) variavel) .nadar();
                 ((Pinguim) variavel) .botarOvos();
                 System.out.println(((Pinguim) variavel).som());
-            
+                System.out.println("\n=============================\n");
+
             } else if (variavel instanceof Pato){
                 ((Pato) variavel) .nadar();
                 ((Pato) variavel) .voar();
                 ((Pato) variavel) .botarOvos();
                 System.out.println(((Pato) variavel).som());
-            
+                System.out.println("\n=============================\n");
+
             } else if (variavel instanceof Pombo){
                 ((Pombo) variavel) .voar();
                 ((Pombo) variavel) .botarOvos();
                 System.out.println(((Pombo) variavel).som());
-                
+                System.out.println("\n=============================\n");
+
             } else {
                 System.out.println("ERRO");
             }
-
-            variavel.sexo();
-            System.out.println("---------------------------------");
         }
     }
 }
