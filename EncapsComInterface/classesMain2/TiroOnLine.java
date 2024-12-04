@@ -11,5 +11,10 @@ public class TiroOnLine implements Jogo{
     public void fechar() {
         System.out.println("Buracos de bala na tela");
     }
+
+    @Override
+    public String getName() {
+        return "Tiro Online";
+    }
     
 }

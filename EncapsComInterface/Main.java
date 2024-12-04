@@ -23,12 +23,11 @@ public class Main {
     // circulo, circulo
     // quadrado, circulo
     // circulo, quadrado
-    // Por causa do tipo de atributo FiguraGeometrica (explicação na classe somandoAreas)
+    // Por causa do tipo de atributo "FiguraGeometrica" que posso colocar dentro do médoto (explicação na classe somandoAreas)
     System.out.println(somarAreas.somandoAreas2(quadrado, circulo));
-    
+    System.out.println(somarAreas.somandoAreas2(circulo, quadrado));
+    System.out.println(somarAreas.somandoAreas2(quadrado, quadrado));
+    System.out.println(somarAreas.somandoAreas2(circulo, circulo));
 
-
-}
-
-    
+    }
 }

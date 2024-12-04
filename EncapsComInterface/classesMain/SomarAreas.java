@@ -8,6 +8,8 @@ public class SomarAreas {
         return totalArea;
     }
 
+    // Aqui poderia usar o msm nome do médoto somandoAreas(), fanzendo um Polimorfismo de sobrecarga
+    // Coloquei somandoAreas2(), só pra melhor entendimento 
     public double somandoAreas2(FiguraGeometrica figura1, FiguraGeometrica figura2){
     
         double totalArea = figura1.calcularArea() + figura2.calcularArea();
@@ -21,5 +23,7 @@ public class SomarAreas {
 
         O msm vale para o somandoAreas2(), que usa os tipos de atributos FiguraGeometrica, que é da interface FiguraGeometrica
         que tem o método calcularArea()
+
+        Ai nas variaveis figura1 e figura2 eu coloco objetos que tenham implementação da interface FiguraGeometrica
      */
 }

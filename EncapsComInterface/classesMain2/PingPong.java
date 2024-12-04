@@ -11,5 +11,10 @@ public class PingPong implements Jogo{
     public void fechar() {
         System.out.println("Letras subindo indo de um lado para o outro");
     }
+
+    @Override
+    public String getName() {
+        return "Ping Pong";
+    }
     
 }

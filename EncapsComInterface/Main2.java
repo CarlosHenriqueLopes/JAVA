@@ -8,8 +8,8 @@ import EncapsComInterface.classesMain2.Xadrez;
 /*
     Explicação sobre instanciar os jogos dentro do médoto jogar()    
     
-    O método jogar() tem que ser colocado atributos do tipo Jogo como valor, mais consigo colocar a classe Xadrez dentro (e os outros jogos tb),
-    inclusive consigo instancia uma nova, isso acontece pq a classe Xadrez (e as outras classes do jogos) implementam a interface Jogo
+    No método jogar() da classe VideoGame tem que ser colocado atributos do tipo Jogo como valor, mais consigo colocar a classe Xadrez dentro (e as outras classes de jogos tb),
+    inclusive consigo instanciar uma nova classe dentro do médoto, isso acontece pq as classes de jogos implementam a interface Jogo
 
     Implementação da Interface:
     Quando uma classe implementa uma interface, ela concorda em fornecer uma implementação para todos os métodos definidos na interface.
@@ -39,11 +39,11 @@ public class Main2 {
         // videoGame.jogar(new Xadrez());
         // videoGame.fechar();
 
-        videoGame.ligar();
+        //videoGame.ligarVideoGame();
         videoGame.jogar(new PingPong());
         videoGame.fechar();
 
-        // videoGame.ligar();
+        // videoGame.ligarVideoGame();
         // videoGame.jogar(new TiroOnLine());
         // videoGame.fechar();
     }
