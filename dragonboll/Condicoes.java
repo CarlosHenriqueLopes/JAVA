@@ -1,11 +1,8 @@
 package dragonboll;
 
 public class Condicoes {
-
-
     Atributos atributos = new Atributos();
-
-
+    
     public void switchCase(String valor){
         
         // DUvida!

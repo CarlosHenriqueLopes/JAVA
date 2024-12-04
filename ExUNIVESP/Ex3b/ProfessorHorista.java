@@ -14,12 +14,10 @@ public class ProfessorHorista extends Professor{
         this.numHoras = numHoras;
     }
 
-
     // Calculo do salário:
     public double getcalcSalario(){
         return this.numHoras * this.vlrHora;
     }
-
 
     public double getValorHora() {
         return vlrHora;

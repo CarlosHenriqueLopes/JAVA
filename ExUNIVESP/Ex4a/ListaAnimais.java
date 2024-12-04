@@ -24,7 +24,6 @@ public class ListaAnimais {
     System.out.println();
 
 
-
     animais.add(1,"Gato");  // Adicionando elemento na 1ª posição
 
     System.out.println("Lista com Gato adicionado na 1ª posição:");
@@ -32,7 +31,6 @@ public class ListaAnimais {
         System.out.println(var);
     }
     System.out.println();
-
 
 
     animais.add("Cobra");

@@ -11,7 +11,7 @@ public class Main {
     //Atributos atributos = new Atributos();
     Condicoes condicoes = new Condicoes();
 
-    String init = JOptionPane.showInputDialog(null, "Digite um nome de personagem de DragonBoll");
+    String init = JOptionPane.showInputDialog(null, "Digite um nome de personagem de Dragon Boll");
 
     condicoes.switchCase(init);
 

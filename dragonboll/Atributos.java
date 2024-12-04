@@ -7,8 +7,6 @@ public class Atributos {
 
     private String nomeIMG, origem = "";
 
-
-
     // Duvida!
     // Por que o parametro e o instanciamento da classe tem que ficar dentro do método?
     
@@ -17,15 +15,13 @@ public class Atributos {
 
 
     public void getInformacoes(){
-        String imgCaminho = String.format("D:\\Documentos\\Project\\AulasIniciais\\src\\dragonboll\\img\\%s.png", getNomeIMG());
+        String imgCaminho = String.format("C:\\Users\\carlos\\Documents\\GitHub\\JAVA\\dragonboll\\img\\%s.png", getNomeIMG());
         
         ImageIcon icon = new ImageIcon(imgCaminho);  // classe para usar icons, no parâmetro final do JOptionPane.showMessageDialog, pode colocar um icon
         
         String infos = String.format(" Personagem: %s\n Origem: %s", getNomeIMG(), getOrigem());
         JOptionPane.showMessageDialog(null, infos, "INFORMAÇÔES:", JOptionPane.INFORMATION_MESSAGE, icon);
     }
-
-
 
     public String getNomeIMG(){
         return this.nomeIMG;
@@ -46,7 +42,6 @@ public class Atributos {
             this.nomeIMG = "Não está nos registros";
         }
     }
-
 
     public String getOrigem(){
         return this.origem;

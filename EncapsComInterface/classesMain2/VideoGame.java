@@ -5,7 +5,6 @@ public class VideoGame {
     private Jogo jogo; // caso não seja adicionado um vlr para a variável jogo, ela vai valer null
     private boolean estaLigado; // caso não seja adicionado um vlr para a variável estaLigado, ela vai valer false
 
-
     public void ligarVideoGame(){
         System.out.println("Iniciando o video game...");
         this.estaLigado = true;
@@ -24,20 +23,21 @@ public class VideoGame {
     }    
  
     public void fechar(){
-        // estaLigado == true quer dizer que o método ligar() foi usado
+        // estaLigado == true quer dizer que o método ligarVideoGame() foi usado
         if (this.estaLigado == true && this.jogo == null){
-            System.out.println("Video game iniciado(ligado), mais sem nenhum jogo para ser fechado");
+            System.out.println("Desligando o video game, sem nenhum jogo iniciado");
 
+        // essa condição significa que o video game está ligado e tem um jogo iniciado
         } else if (this.estaLigado == true){
             System.out.printf("Fechando o jogo %f\n", jogo.getName());
 
-
+            // se cair na condição else if, vai para este if ou else
 
             // se a variavel do tipo Jogo não receber nada = null (estiver vazia).
-            // e se não for adicionado nada, a variavel do tipo jogo recebe o método fechar() referente ao valor adicionado (cada valor tem um método obrigatório diferente da interface)
+            // a variavel do tipo jogo recebe o método fechar() referente ao game adicionado
             if (this.jogo != null){
-                this.jogo.fechar();
-                this.jogo = null;
+                this.jogo.fechar();// -> cada tipo de game, vai mostrar uma coisa
+                this.jogo = null;// -> remover o game que foi adicionado em jogar()
 
             } else {
                 System.out.println("Nenhum jogo iniciado");
