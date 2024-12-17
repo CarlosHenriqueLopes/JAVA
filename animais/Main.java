@@ -1,5 +1,6 @@
 package animais;
 
+import java.util.List;
 import java.util.ArrayList;
 
 import animais.superClassAbstt.Animais;
@@ -9,7 +10,7 @@ import animais.voadores.*;
 public class Main {
     public static void main(String[] args) {
         
-        ArrayList<Animais> animais = new ArrayList<Animais>();
+        List<Animais> animais = new ArrayList<Animais>();
 
         animais.add(new Cachorro("Virata Caramelo", Animais.MACHO, Animais.voadorNAO));
         animais.add(new Gato("Gato Malhado", Animais.FEMEA, Animais.voadorSIM));
